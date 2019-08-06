@@ -1,45 +1,60 @@
-import React from "react";
+import React, {Component} from "react";
 import "../style.css"
 import Footer from "./Footer"
+import axios from "axios"
 
-function Contact() {
+class Contact extends Component {
+    handleSubmit(e){
+        e.preventDefault();
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+        axios({
+            method: "POST", 
+            url:"http://localhost:3002/send", 
+            data: {
+                name: name,   
+                email: email,  
+                messsage: message
+            }
+        }).then((response)=>{
+            if (response.data.msg === 'success'){
+                alert("Message Sent."); 
+                this.resetForm()
+            }else if(response.data.msg === 'fail'){
+                alert("Message failed to send.")
+            }
+        })
+    }
+    resetForm(){
+        document.getElementById('contact-form').reset();
+    }
+    render(){
     return (
         <div>
-            <div class="container contactForm">
-                <div class="row">
-                    <div class="col m10 offset-m1 s12">
-                        <h2 class="center-align newspaperFont">Send Us Your Clues!</h2>
-                        <p class="newspaperFont center-align">If you are the murderer, you can also confess here.</p>
-                        <div class="row">
-                            <form class="col m8 offset-m2 s12">
-                                <div class="row">
-                                    <div class="newspaperFont input-field col s12">
-                                        <input id="name" type="text" />
-                                        <label for="name">Name</label>
-                                    </div>
-                                    <div class="newspaperFont input-field col s12">
-                                        <input id="email" type="email" class="form-input" />
-                                        <label for="email">Email</label>
-                                    </div>
-                                    <div class="newspaperFont input-field col s12">
-                                        <textarea id="message" class="materialize-textarea"></textarea>
-                                        <label for="message">Message</label>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col m12">
-                                        <p class="right-align"><button class="subBtn2 btn btn-large waves-effect waves-light" type="button" name="action">Send Message</button></p>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
+            <div class="container">
+                <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+                    <div className="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" className="form-control" id="name" />
                     </div>
-                </div>
+                    <div className="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" className="form-control" id="email" aria-describedby="emailHelp" />
+                    </div>
+                    <div className="form-group">
+                        <label for="message">Message</label>
+                        <textarea className="form-control" rows="5" id="message"></textarea>
+                    </div>
+                    <button type="submit" className="btn btn-primary">Submit</button>
+                </form>
+
             </div>
             <Footer />
         </div>
 
     );
+}
 }
 
 export default Contact;
