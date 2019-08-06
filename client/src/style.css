@@ -1,0 +1,104 @@
+body {
+    background-color: black;
+}
+
+.newspaper {
+    background-color: black;
+    color: white;
+    font-family: 'DM Serif Text', serif;
+}
+
+.newspaperBody {
+    color: white
+}
+
+#subBtn {
+    margin: 0 0 5% 0;
+    padding: 1% 5%;
+    font-size: 40px;
+    background-color: white;
+    font-family: 'DM Serif Text', serif;
+    color: black
+}
+
+.card {
+    height: 250px;
+    width: 250px;
+    font-family: 'DM Serif Text', serif;
+}
+
+#postIt {
+    height: 250px;
+    width: 250px;
+    z-index: 1;
+    position: relative
+}
+
+#corkBoard {
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+#paperBit {
+    z-index: 1;
+    position: relative
+}
+
+#dropdownItems{
+    color: black
+}
+
+.contactForm{
+    background-color: whitesmoke
+}
+
+.subBtn2{
+    font-size: 25px;
+    background-color: black;
+    font-family: 'DM Serif Text', serif;
+    color: white;   
+}
+.subBtn2:hover {
+    background-color: goldenrod;
+ }
+
+ label{
+     color: goldenrod
+ }
+ 
+ .newspaperFont{
+    font-family: 'DM Serif Text', serif;
+    color: black
+ }
+
+/* label focus color */
+.input-field input:focus + label {
+    color: goldenrod !important;
+  }
+  /* label underline focus color */
+  .row .input-field input:focus {
+    border-bottom: 1px solid goldenrod !important;
+    box-shadow: 0 1px 0 0 goldenrod !important
+  }
+
+  /* label focus color */
+  .input-field input[type=text]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+    color:goldenrod !important;
+   }
+
+/* label underline focus color */
+   .input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid goldenrod !important;
+    box-shadow: 0 1px 0 0 goldenrod!important;
+   }
+
+   .characterBox{
+       height: 100%;
+       width: 100%;
+   }
