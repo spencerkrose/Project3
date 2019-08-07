@@ -16,6 +16,10 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 
+app.get('/', function(req, res) {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
+
 app.post('/send', (req, res) => {
   // console.log(req.body)
   console.log("Name: " + req.body.name + " Email: " + req.body.email+ " Message: " +req.body.message)
