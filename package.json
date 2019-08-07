@@ -1,0 +1,44 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "disqus-react": "^1.0.6",
+    "jquery": "^3.4.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "react": "^16.8.6",
+    "react-commentbox": "^3.0.1",
+    "react-disqus-comments": "^1.4.0",
+    "react-dom": "^16.8.6",
+    "react-mail-form": "^1.0.3",
+    "react-materialize": "^3.3.4",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "reactstrap": "^8.0.1",
+    "showdown": "^1.9.0",
+    "webfontloader": "^1.6.28"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
