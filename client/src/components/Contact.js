@@ -34,7 +34,10 @@ class Contact extends Component {
    }
     render(){
     return (
+    <div className="container">
     <div className="contactForm">
+    <h1 className="center-align newspaperFont">Send Us Your Clues!</h1>
+        <p className="center-align newspaperFont">Or if you're the murderer, please confess here.</p>
        <Form onSubmit={this.handleSubmit} className="container">
            <FormGroup>
                <Label for="name">Name:</Label>
@@ -59,10 +62,13 @@ class Contact extends Component {
                name="message"
                onChange={this.handleChange}/>
            </FormGroup>
-           <Button>Submit</Button>
-
+           <div className="center-align">
+               <br></br>
+           <Button className="subBtn2">Submit</Button>
+           </div>
        </Form>
-       
+       </div>
+       <Footer/>
        </div>
     );
 }
