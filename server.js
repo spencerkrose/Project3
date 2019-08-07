@@ -3,6 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 const bodyParser = require('body-parser');
 const nodemailer = require("nodemailer")
+const path = require('path')
 require('dotenv').config()
 
 // Define middleware here
@@ -20,9 +21,9 @@ app.get('*', function(req, res) {
   res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
 });
 
-app.get('/', function(req, res) {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
-});
+// app.get('/', function(req, res) {
+//   res.sendFile(path.join(__dirname, 'build', 'index.html'));
+// });
 
 app.post('/send', (req, res) => {
   // console.log(req.body)
