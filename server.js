@@ -5,9 +5,6 @@ const bodyParser = require('body-parser');
 const nodemailer = require("nodemailer")
 require('dotenv').config()
 
-// app.use(bodyParser.json())
-// app.use(bodyParser.urlencoded({extended: true}))
-
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -18,11 +15,6 @@ app.use(bodyParser.urlencoded({extended: false}))
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
-
-// dave added this
-app.get('*', (request, response) => {
-	response.sendFile(path.join(__dirname, 'client/build', 'index.html'));
-});
 
 app.post('/send', (req, res) => {
   // console.log(req.body)
