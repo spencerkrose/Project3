@@ -58,47 +58,54 @@ body {
     background-color: whitesmoke
 }
 
-.subBtn2{
+/* .subBtn2{
     font-size: 25px;
     background-color: black;
     font-family: 'DM Serif Text', serif;
     color: white;   
 }
 .subBtn2:hover {
-    background-color: goldenrod;
- }
+    background-color: goldenrod; */
+ /* } */
 
- label{
+ /* label{
      color: goldenrod
- }
+ } */
  
  .newspaperFont{
     font-family: 'DM Serif Text', serif;
     color: black
  }
 
-/* label focus color */
+/* label focus color
 .input-field input:focus + label {
     color: goldenrod !important;
   }
   /* label underline focus color */
-  .row .input-field input:focus {
+  /* .row .input-field input:focus {
     border-bottom: 1px solid goldenrod !important;
-    box-shadow: 0 1px 0 0 goldenrod !important
-  }
+    box-shadow: 0 1px 0 0 goldenrod !important;
+  } */
 
   /* label focus color */
-  .input-field input[type=text]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+  /* .input-field input[type=text]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
     color:goldenrod !important;
-   }
+   } */
 
 /* label underline focus color */
-   .input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
+   /* .input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
     border-bottom: 1px solid goldenrod !important;
     box-shadow: 0 1px 0 0 goldenrod!important;
-   }
+   } */
+input{
+    color:black
+}
+.contactForm{
+background-color: whitesmoke;
+width:50%;
 
-   .characterBox{
-       height: 100%;
-       width: 100%;
-   }
+}
+
+FormGroup{
+    color:black
+}

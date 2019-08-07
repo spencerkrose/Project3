@@ -4,8 +4,8 @@ import Footer from "./Footer"
 
 function Episode1() {
     return (
-        <div>
-        
+      <div>
+     
          <Footer/>
       </div>
       

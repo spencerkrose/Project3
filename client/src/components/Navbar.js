@@ -9,14 +9,14 @@ function Navbar() {
   return (
     <div>
       <nav>
-        <div class="newspaper black nav-wrapper">
-          <a href="/" class="responsive-img brand-logo center"><img src="https://i.imgur.com/0c2kMCU.png"></img></a>
-          <ul class="left hide-on-med-and-down">
+        <div className="newspaper black nav-wrapper">
+          <a href="/" className="responsive-img brand-logo center"><img src="https://i.imgur.com/0c2kMCU.png"></img></a>
+          <ul className="left hide-on-med-and-down">
             <li><a href="/">Home</a></li>
             <li><a href="/About">About</a></li>
             <li><a href="/Episodes">Episodes</a></li>
           </ul>
-          <ul class="newspaper right hide-on-med-and-down">
+          <ul className="newspaper right hide-on-med-and-down">
             <li><Dropdown id="dropdownItems" trigger={<a>Subscribe</a>}>
               <a id="dropdownItems" href="https://www.apple.com/itunes/podcasts/" target="_blank">
                 iTunes
