@@ -8,6 +8,7 @@
     "disqus-react": "^1.0.6",
     "jquery": "^3.4.1",
     "materialize-css": "^1.0.0-rc.2",
+    "plyr": "^3.5.6",
     "react": "^16.8.6",
     "react-commentbox": "^3.0.1",
     "react-disqus-comments": "^1.4.0",
