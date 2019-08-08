@@ -26,8 +26,8 @@ function App() {
           <Route exact path="/About" component={About}/>
           <Route exact path="/Episodes" component={seasonOne}/>
           <Route exact path="/Episodes/1" component={Episode1}/>
-          <Route exact path="/Episodes/2" component={Episode1}/>
-          <Route exact path="/Episodes/3" component={Episode1}/>
+          <Route exact path="/Episodes/2" component={Episode2}/>
+          <Route exact path="/Episodes/3" component={Episode3}/>
           <Route exact path="/Episodes/4" component={Episode1}/>
           <Route exact path="/Episodes/5" component={Episode1}/>
           <Route exact path="/Episodes/6" component={Episode1}/>
