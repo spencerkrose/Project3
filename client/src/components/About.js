@@ -10,7 +10,7 @@ function About() {
              The Suspects
          </h1>
          <p className="newspaper center-align">Click a photo to learn more...</p>
-         <div className="container  mflex-container">
+         <div className="container  flex-container">
          {/* <div className="center-align container row"> */}
          {/* <div className="center-align characterBox col s4"> */}
          <Character className="center-align" name="Aaron Fields" image="https://i.imgur.com/AsFmv5p.png/" bio="Aaron Fields is a first time podcaster and proud-ish parent of Michael Fields." actor="Colin Rourke"/>
