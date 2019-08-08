@@ -21,7 +21,7 @@ body {
     color: black
 }
 
-.flex-container {
+.mflex-container {
     display: flex;
     justify-content: space-around;
 }
