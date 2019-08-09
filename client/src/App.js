@@ -28,10 +28,10 @@ function App() {
           <Route exact path="/Episodes/1" component={Episode1}/>
           <Route exact path="/Episodes/2" component={Episode2}/>
           <Route exact path="/Episodes/3" component={Episode3}/>
-          <Route exact path="/Episodes/4" component={Episode1}/>
-          <Route exact path="/Episodes/5" component={Episode1}/>
-          <Route exact path="/Episodes/6" component={Episode1}/>
-          <Route exact path="/Episodes/7" component={Episode1}/>
+          <Route exact path="/Episodes/4" component={Episode4}/>
+          <Route exact path="/Episodes/5" component={Episode5}/>
+          <Route exact path="/Episodes/6" component={Episode6}/>
+          <Route exact path="/Episodes/7" component={Episode7}/>
           <Route exact path="/Contact" component={Contact}/>
           </Switch>
           </div>
