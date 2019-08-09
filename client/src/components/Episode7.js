@@ -12,7 +12,7 @@ function Episode7() {
     controls/>
     </div>
     <div className="container">
-      <img className="podcastPlayer2" src="https://i.imgur.com/NwupBJw.png"></img>
+      <img className="podcastPlayer2" src="https://i.imgur.com/ybAj3wb.png"></img>
       </div>
       <Footer />
     </div>
