@@ -7,8 +7,9 @@ function Submitted() {
         <div>
          <h1 className=" newspaper center-align">
              Clue Submitted!</h1>
-        <h4 className= "newspaper center-align"> Thank you for emailing us. We promise to investigate all clues and leave no stone unturned!</h4>
-        <h4 className= "newspaper center-align"> Be sure to subscribe to stay up to date!</h4>
+        <h4 className= "container newspaper center-align"> Thank you for emailing us. We promise to investigate all clues and leave no stone unturned!</h4>
+        <br></br>
+        <h4 className= "container newspaper center-align"> Be sure to subscribe to stay up to date!</h4>
          <Footer/>
          </div>
          
