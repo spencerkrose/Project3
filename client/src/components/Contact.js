@@ -5,6 +5,7 @@ import axios from "axios"
 import {Button, Form, FormGroup, Label, Input} from "reactstrap"
 
 
+
 class Contact extends Component {
    constructor(){
        super()
@@ -23,6 +24,7 @@ class Contact extends Component {
 
   async handleSubmit(e){
        e.preventDefault()
+       this.props.history.push('/Submitted')
 
        const {name, email, message} = this.state
 
@@ -32,13 +34,14 @@ class Contact extends Component {
            message
        })
    }
+  
     render(){
     return (
     <div className="container">
     <div className="contactForm">
     <h1 className="center-align newspaperFont">Send Us Your Clues!</h1>
         <p className="center-align newspaperFont">Or if you're the murderer, please confess here.</p>
-       <Form onSubmit={this.handleSubmit} className="container">
+       <Form id="myForm" onSubmit={this.handleSubmit} className="container">
            <FormGroup>
                <Label for="name">Name:</Label>
                <Input

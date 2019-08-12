@@ -2,7 +2,10 @@ import React from "react";
 import "../style.css"
 import Footer from "./Footer"
 import ReactAudioPlayer from 'react-audio-player';
-
+import Disqus from 'disqus-react';
+const disqusShortname = 'deathatabakesale';
+const disqusConfig = {
+}
 
 
 function Episode2() {
@@ -20,8 +23,8 @@ function Episode2() {
      
 
 
-      <div>
-       
+      <div className="container">
+      <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
       </div>
       <Footer />
     </div>

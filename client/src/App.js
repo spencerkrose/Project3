@@ -12,6 +12,7 @@ import Episode5 from './components/Episode5'
 import Episode6 from './components/Episode6'
 import Episode7 from './components/Episode7'
 import Contact from './components/Contact'
+import Submitted from './components/Submitted'
 import "./style.css"
 
 
@@ -33,6 +34,7 @@ function App() {
           <Route exact path="/Episodes/6" component={Episode6}/>
           <Route exact path="/Episodes/7" component={Episode7}/>
           <Route exact path="/Contact" component={Contact}/>
+          <Route exact path="/Submitted" component={Submitted}/>
           </Switch>
           </div>
           </Router>
