@@ -18,17 +18,20 @@ function Navbar() {
           </ul>
           <ul className="newspaper right hide-on-med-and-down">
             <li><Dropdown id="dropdownItems" trigger={<a>Subscribe</a>}>
+            <a id="dropdownItems" href="https://deathatabakesale.podbean.com/" target="_blank">
+                Podbean
+                </a>
               <a id="dropdownItems" href="https://www.apple.com/itunes/podcasts/" target="_blank">
-                iTunes
+                iTunes (coming soon)
                 </a>
               <a id="dropdownItems" href="https://open.spotify.com/genre/podcasts-page" target="_blank">
-                Spotify
+                Spotify (coming soon)
                 </a>
               <a id="dropdownItems" href="https://www.stitcher.com/" target="_blank">
-                Stitcher
+                Stitcher (coming soon)
               </a>
               <a id="dropdownItems" href="https://luminarypodcasts.com/" target="_blank">
-                Luminary
+                Luminary (coming soon)
                 </a>
             </Dropdown></li>
             <li><a href="http://instagram.com/deathatabakesale" target="_blank">Follow</a></li>
