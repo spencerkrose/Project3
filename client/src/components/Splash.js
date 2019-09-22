@@ -20,7 +20,7 @@ function Splash() {
             </div>
             <br></br>
             <div className="center-align z-depth-4">
-           <a href="http://geekoutpod.com" target="_blank" id="subBtn">Listen Now</a>
+           <a href="https://deathatabakesale.podbean.com/" target="_blank" id="subBtn">Listen Now</a>
            </div>
            <Footer/>
         </div>
