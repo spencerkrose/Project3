@@ -18,25 +18,25 @@ function seasonOne() {
          <PostIt image="https://i.imgur.com/Sy3NjSQ.png" episode ="/Episodes/1"/>
          </div>
          <div className="col s4">
-         <PostIt image="https://i.imgur.com/eASOJCZ.png" episode ="/Episodes/2"/>
+         <PostIt image="https://i.imgur.com/GtgRMTR.png" episode ="/Episodes"/>
          </div>
          <div className="col s4">
-         <PostIt image="https://i.imgur.com/ZcYO1D9.png" episode ="/Episodes/3"/>         
+         <PostIt image="https://i.imgur.com/GtgRMTR.png" episode ="/Episodes"/>         
          </div>
          </div>
          <div className="center-align container row">
          <div className="col s4">
-         <PostIt image="https://i.imgur.com/ah7thTw.png" episode ="/Episodes/4"/>
+         <PostIt image="https://i.imgur.com/GtgRMTR.png" episode ="/Episodes"/>
          </div>
          <div className="col s4">
-         <PostIt image="https://i.imgur.com/LW2PWcW.png" episode ="/Episodes/5"/>
+         <PostIt image="https://i.imgur.com/GtgRMTR.png" episode ="/Episodes"/>
          </div>
          <div className="col s4">
-         <PostIt image="https://i.imgur.com/Ilyk3ck.png" episode ="/Episodes/6"/>         
+         <PostIt image="https://i.imgur.com/GtgRMTR.png" episode ="/Episodes"/>         
          </div>
         <div className="center-align container row">
          <div className="col s12">
-             <PostIt image="https://i.imgur.com/VarVW3f.png" episode ="/Episodes/7"/>
+             <PostIt image="https://i.imgur.com/GtgRMTR.png" episode ="/Episodes"/>
         </div>
         </div>
         </div>
