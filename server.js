@@ -21,6 +21,10 @@ app.get('*', function(req, res) {
   res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
 });
 
+app.get('.well-known/acme-challenge/:content', function(req, res) {
+  res.send('8-seKakz3SHVSmDgnrvMF6DhgCJmB1B5ydcxwAsG4gk')
+})
+
 // app.get('/', function(req, res) {
 //   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 // });
