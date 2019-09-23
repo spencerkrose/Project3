@@ -21,8 +21,8 @@ app.get('*', function(req, res) {
   res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
 });
 
-app.get('.well-known/acme-challenge/86Bfn0dDadbTFrnMpPejmZWzZNRisL1jVOWEa65X1UQ.HbDmzzpH6Dvi-WdYt24oiPaklDC5i4ubC3w1mmVOX3E', function(req, res) {
-  res.send('86Bfn0dDadbTFrnMpPejmZWzZNRisL1jVOWEa65X1UQ.HbDmzzpH6Dvi-WdYt24oiPaklDC5i4ubC3w1mmVOX3E')
+app.get('.well-known/acme-challenge/RrPVju0mOuFqcm4se6A5XYE4xUe3xE7qtbfzy0CTbyg', function(req, res) {
+  res.send('RrPVju0mOuFqcm4se6A5XYE4xUe3xE7qtbfzy0CTbyg.HbDmzzpH6Dvi-WdYt24oiPaklDC5i4ubC3w1mmVOX3E')
 })
 
 // app.get('/', function(req, res) {
