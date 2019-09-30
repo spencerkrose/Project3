@@ -15,7 +15,7 @@ function seasonOne() {
         </div>
         <div className="center-align container row">
          <div className="col s4">
-         <PostIt image="https://i.imgur.com/8wp0Ye3.png" episode ="/Episodes"/>
+         <PostIt image="https://i.imgur.com/I1APKzy.png" episode ="/Episodes/1"/>
          </div>
          <div className="col s4">
          <PostIt image="https://i.imgur.com/GtgRMTR.png" episode ="/Episodes"/>
