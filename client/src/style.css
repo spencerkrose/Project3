@@ -69,8 +69,8 @@ body {
 }
 .podcastPlayer{
     padding: 33% 0% 15% 0%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 500px;
+    margin-right: 500px;
     left: 0;
     right: 0;
     position: absolute !important;
