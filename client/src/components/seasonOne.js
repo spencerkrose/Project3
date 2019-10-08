@@ -18,7 +18,7 @@ function seasonOne() {
          <PostIt image="https://i.imgur.com/I1APKzy.png" episode ="/Episodes/1"/>
          </div>
          <div className="col s4">
-         <PostIt image="https://i.imgur.com/GtgRMTR.png" episode ="/Episodes"/>
+         <PostIt image="https://i.imgur.com/mKFTxZu.png" episode ="/Episodes/2"/>
          </div>
          <div className="col s4">
          <PostIt image="https://i.imgur.com/GtgRMTR.png" episode ="/Episodes"/>         
