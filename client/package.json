@@ -17,7 +17,7 @@
     "react-mail-form": "^1.0.3",
     "react-materialize": "^3.3.4",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "reactstrap": "^8.0.1",
     "showdown": "^1.9.0",
     "webfontloader": "^1.6.28"
